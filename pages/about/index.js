@@ -142,7 +142,7 @@ const About = () => {
     <div className="h-full bg-primary/60 py-32 text-center">
       <Circles />
 
-      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 mt-10">
+      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         {/* texto */}
         <div className="flex-1 flex flex-col justify-center">
           <motion.h2
@@ -193,7 +193,7 @@ const About = () => {
 
         </div>
 
-        <div className="flex flex-col w-full xl:max-w-[48%] h-[480px] mt-10">
+        <div className="flex flex-col w-full xl:max-w-[48%] h-[480px]">
 
           <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
             {aboutData.map((item, itemIndex) => {
