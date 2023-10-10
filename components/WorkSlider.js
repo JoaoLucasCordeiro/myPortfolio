@@ -72,7 +72,7 @@ const WorkSlider = () => {
               <div className="grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer">
                 {slide.images.map((image, index) => {
                   return (
-                    <div className="relative rounded-lg overflow-hidden flex items-center justify-center group">
+                    <div key={index} className="relative rounded-lg overflow-hidden flex items-center justify-center group">
                       <div className="relative items-center justify-center overflow-hidden ">
                         {/* imagem do card*/}
                         <Image src={image.path} width={500} height={300} alt="" />
