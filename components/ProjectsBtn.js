@@ -8,7 +8,7 @@ import roundedText from "../public/rounded-text.png"
 
 const ProjectsBtn = () => {
   return (
-    <div className="mx-auto xl:mx-0 z-1000 cursor-pointer">
+    <div className="mx-auto xl:mx-0 cursor-pointer">
       <Link href={`/work`}
         className="curosr-pointer relative w-[185px] h-[185px] flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat group">
 
