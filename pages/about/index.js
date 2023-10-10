@@ -172,8 +172,7 @@ const About = () => {
             exit="hidden"
             className="relative flex-1"
           >
-            <div className="bg-orange-500/10 p-4 rounded-xl mb-2">
-            
+            {/* <div className="bg-orange-500/10 p-4 rounded-xl mb-2">
               {lastFmData && (
                 <>
                   <h1 className="text-sm font-bold">
@@ -183,7 +182,7 @@ const About = () => {
                   </h1>
                 </>
               )}
-            </div>
+            </div> */}
           </motion.div>
 
         </div>
