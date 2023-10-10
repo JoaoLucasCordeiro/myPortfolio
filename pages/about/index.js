@@ -61,16 +61,12 @@ const aboutData = [
     title: "Experiências",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "Desenvolvedor front-end - Inclusive Pet",
+        stage: "2022 - 2023",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
-      },
-      {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
+        title: "Desenvolvedor freelancer",
+        stage: "2021 - atualmente",
       },
     ],
   },
@@ -176,8 +172,8 @@ const About = () => {
             exit="hidden"
             className="relative flex-1"
           >
-            {/* <div className="bg-orange-500/10 p-4 rounded-xl">
-          
+            <div className="bg-orange-500/10 p-4 rounded-xl mb-2">
+            
               {lastFmData && (
                 <>
                   <h1 className="text-sm font-bold">
@@ -185,10 +181,9 @@ const About = () => {
                     <span className="text-accent">{lastFmData.name}</span> do artista{' '}
                     <span className="text-accent">{lastFmData.artist['#text']}</span>
                   </h1>
-                  <span className="text-sm text-white/60">Sim, isso está acontecendo agora mesmo, graças à API do Last.fm</span>
                 </>
               )}
-            </div> */}
+            </div>
           </motion.div>
 
         </div>
