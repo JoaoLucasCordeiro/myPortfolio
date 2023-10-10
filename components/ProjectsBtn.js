@@ -4,6 +4,8 @@ import Link from "next/link"
 
 import { HiArrowRight } from "react-icons/hi2"
 
+import roundedText from "../public/rounded-text.png"
+
 const ProjectsBtn = () => {
   return (
     <div className="mx-auto xl:mx-0">
@@ -12,7 +14,7 @@ const ProjectsBtn = () => {
 
         {/* conteúdo do botão */}
         <Image
-          src={'/rounded-text.png'}
+          src={roundedText}
           width={141}
           height={148}
           alt=""
