@@ -176,8 +176,8 @@ const About = () => {
             exit="hidden"
             className="relative flex-1"
           >
-            <div className="bg-orange-500/10 p-4 rounded-xl">
-              {/* Exibindo as informações do Last.fm */}
+            {/* <div className="bg-orange-500/10 p-4 rounded-xl">
+          
               {lastFmData && (
                 <>
                   <h1 className="text-sm font-bold">
@@ -188,7 +188,7 @@ const About = () => {
                   <span className="text-sm text-white/60">Sim, isso está acontecendo agora mesmo, graças à API do Last.fm</span>
                 </>
               )}
-            </div>
+            </div> */}
           </motion.div>
 
         </div>
