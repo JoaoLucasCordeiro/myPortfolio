@@ -39,9 +39,7 @@ const Services = () => {
               animate="show"
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0">
-              Dolore officia ipsum et proident cillum. Amet labore velit velit
-              voluptate consequat veniam esse cillum. Nostrud laboris proident
-              sunt nulla labore magna exercitation excepteur aliquip fugiat.
+              Aqui eu te mostro tudo o que eu posso te oferecer com o meu trabalho, de desevolvimento ao copywriting do seu seu site ou projeto, deixe tudo comigo.
             </motion.p>
 
           </div>

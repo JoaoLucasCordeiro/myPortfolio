@@ -12,23 +12,23 @@ const serviceData = [
   {
     icon: <RxPencil2 />,
     title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Experiência na criação de designs modernos e responsivos que atendem a diversos nichos.',
   },
 
   {
     icon: <RxDesktop />,
     title: 'Desenvolvimento',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Conhecimento do básico HTML, CSS e JS até frameworks poderosos e bancos de dados.',
   },
   {
     icon: <RxReader />,
     title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Te ajudo a criar textos chamativos e de boa escrita que vão ajudar o seu negócio a vender mais. ',
   },
   {
     icon: <RxRocket />,
     title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Sempre atento as melhores práticas para que o SEO do seu site ou projeto seja impecável.',
   },
 ];
 

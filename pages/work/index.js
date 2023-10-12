@@ -39,9 +39,7 @@ const Work = () => {
               animate="show"
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0">
-              Dolore officia ipsum et proident cillum. Amet labore velit velit
-              voluptate consequat veniam esse cillum. Nostrud laboris proident
-              sunt nulla labore magna exercitation excepteur aliquip fugiat.
+              Aqui te mostro um pouco de alguns trabalhos que realizei ou que participei como desenvolvedor.
             </motion.p>
 
           </div>
