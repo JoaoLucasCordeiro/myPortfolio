@@ -16,7 +16,7 @@ const testimonialData = [
     name: 'Mateus Curvelo',
     position: 'Cliente',
     message:
-      'Excelente profissional, atencioso aos detalhes, me surpreendeu na parte de designe e VFX do meu site, sempre esteve disposto a me ouvir e apresentar suas ideias ao projeto, recomendo bastante, reitero, um excelente profissional!',
+      'Excelente profissional, atencioso aos detalhes, me surpreendeu na parte de design e VFX do meu site, sempre esteve disposto a me ouvir e apresentar suas ideias ao projeto, recomendo bastante!',
   },
   {
     image: '/t-avt-2.png',
@@ -71,7 +71,7 @@ const TestimonialSlider = () => {
                 <div className="mb-4">
                   <FaQuoteLeft className="text-4xl xl:text-6xl text-white/20 mx-auto md:mx-0" />
                 </div>
-                <div className="xl:text-lg text-center md:text-left ">{person.message}</div>
+                <div className="xl:text-lg text-center md:text-left text-sm">{person.message}</div>
               </div>
             </div>
           </SwiperSlide>
