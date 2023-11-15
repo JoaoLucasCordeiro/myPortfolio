@@ -23,12 +23,12 @@ const testimonialData = [
     name: 'Ivaldir Junior',
     position: 'P.O',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'O Profissional João Lucas é comprometido, atencioso e proativo que busca cumprir o que foi acordado com o cliente de forma efetiva. Técnicamente, Lucas tem se mostrado um grande profissional!! Eu estou muito satisfeito com a forma como ele lida com os desafios e com a forma de resolver esses mesmos desafios. Sem dúvida Ele é um profissional que indicaria com muita alegria para qualquer pessoa ou empresa',
   },
   {
     image: '/t-avt-3.png',
-    name: 'Rafael Roque',
-    position: 'Tech leader',
+    name: 'Davi Guilherme',
+    position: 'Cliente',
     message:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
   },
