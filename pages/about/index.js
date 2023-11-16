@@ -59,35 +59,35 @@ import { fadeIn } from "../../variants";
 import axios from "axios";
 
 const About = () => {
-  async function getLastFmInfo() {
-    const apiKey = process.env.NEXT_PUBLIC_LASTFM_API_KEY;
-    const username = process.env.NEXT_PUBLIC_LASTFM_USERNAME;
+    async function getLastFmInfo() {
+      const apiKey = process.env.NEXT_PUBLIC_LASTFM_API_KEY;
+      const username = process.env.NEXT_PUBLIC_LASTFM_USERNAME;
 
-    try {
-      // Faz a solicitação para a API do Last.fm
-      const response = await axios.get(
-        `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${username}&api_key=${apiKey}&format=json`
-      );
+      try {
+        // Faz a solicitação para a API do Last.fm
+        const response = await axios.get(
+          `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${username}&api_key=${apiKey}&format=json`
+        );
 
-      // Retorna os dados do último artista escutado
-      return response.data.recenttracks.track[0];
-    } catch (error) {
-      console.error("Erro ao obter informações do Last.fm", error);
-      return null;
+        // Retorna os dados do último artista escutado
+        return response.data.recenttracks.track[0];
+      } catch (error) {
+        console.error("Erro ao obter informações do Last.fm", error);
+        return null;
+      }
     }
-  }
 
-  const [index, setIndex] = useState(0);
-  const [lastFmData, setLastFmData] = useState(null);
+    const [index, setIndex] = useState(0);
+    const [lastFmData, setLastFmData] = useState(null);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const data = await getLastFmInfo();
-      setLastFmData(data);
-    };
+    useEffect(() => {
+      const fetchData = async () => {
+        const data = await getLastFmInfo();
+        setLastFmData(data);
+      };
 
-    fetchData();
-  }, []);
+      fetchData();
+    }, []);
 
   return (
     <div className="h-full bg-primary/60 py-32 text-center">
@@ -182,7 +182,7 @@ const About = () => {
               );
             })}
 
-            <div className="bg-orange-500/10 p-4 rounded-xl mb-2 w-[400px] h-[100px] mt-5 items-center justify-center flex">
+            {/* <div className="bg-orange-500/10 p-4 rounded-xl mb-2 w-[400px] h-[100px] mt-5 items-center justify-center flex">
               {lastFmData && (
                 <>
                   <h1 className="text-sm font-bold">
@@ -196,7 +196,7 @@ const About = () => {
                 </>
               )}
             </div>
-            <span className="text-[10px]">Sim, isso está acontecendo em tempo real graças a API do LastFM.</span>
+            <span className="text-[10px]">Sim, isso está acontecendo em tempo real graças a API do LastFM.</span> */}
           </div>
         </div>
       </div>
