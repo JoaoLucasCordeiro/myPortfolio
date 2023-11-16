@@ -67,11 +67,6 @@ const workSlides = {
           path: "/thumb11.png",
           href: "https://gpt3ladingpage.vercel.app/",
         },
-        {
-          title: "title",
-          path: "/thumb12.png",
-          href: "https://healthmate.netlify.app/",
-        },
       ],
     },
   ],
