@@ -103,8 +103,9 @@ const About = () => {
             animate="show"
             exit="hidden"
           >
-            Olá, sou o Lucas 👋{" "}
-            <span className="text-accent"></span>
+            Olá, sou o{" "}
+            <span className="text-accent">Lucas</span>
+            👋
           </motion.h2>
 
           <motion.p
