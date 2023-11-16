@@ -196,7 +196,7 @@ const About = () => {
                 </>
               )}
             </div>
-            <span className="text-[10px]">Sim, isso está acontecendo em tempo real graças a API do LastFM</span>
+            <span className="text-[10px]">Sim, isso está acontecendo em tempo real graças a API do LastFM.</span>
           </div>
         </div>
       </div>
