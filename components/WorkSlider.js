@@ -29,8 +29,8 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "/thumb4.png",
-          href: "https://www.mateuscurvelosound.site/",
+          path: "/thumb5.png",
+          href: "https://inclusivepet.com.br/",
         },
         {
           title: "title",
