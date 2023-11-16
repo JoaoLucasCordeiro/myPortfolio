@@ -49,6 +49,31 @@ const workSlides = {
         },
       ],
     },
+
+    {
+      images: [
+        {
+          title: "title",
+          path: "/thumb9.png",
+          href: "https://thehoobanksite.vercel.app/",
+        },
+        {
+          title: "title",
+          path: "/thumb10.png",
+          href: "https://x-pense.vercel.app/",
+        },
+        {
+          title: "title",
+          path: "/thumb11.png",
+          href: "https://gpt3ladingpage.vercel.app/",
+        },
+        {
+          title: "title",
+          path: "/thumb12.png",
+          href: "https://healthmate.netlify.app/",
+        },
+      ],
+    },
   ],
 };
 
