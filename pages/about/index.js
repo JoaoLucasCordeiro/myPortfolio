@@ -190,7 +190,7 @@ const About = () => {
                     <span className="text-accent">{lastFmData.name}</span> do
                     artista{" "}
                     <span className="text-accent">
-                      {lastFmData.artist["#text"]}
+                      {lastFmData.artist["#text"]} 🎶
                     </span>
                   </h1>
                 </>
