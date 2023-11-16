@@ -23,7 +23,7 @@ const testimonialData = [
     name: 'Ivaldir Junior',
     position: 'P.O',
     message:
-      'O Profissional Lucas é comprometido, atencioso e proativo que busca cumprir o que foi acordado com o cliente de forma efetiva. Técnicamente, Lucas tem se mostrado um grande profissional!! Eu estou muito satisfeito com a forma como ele lida com os desafios e com a forma de resolver esses mesmos desafios. Sem dúvida Ele é um profissional que indicaria com muita alegria para qualquer pessoa ou empresa',
+      'O Profissional Lucas é comprometido, atencioso e proativo que busca cumprir o que foi acordado com o cliente de forma efetiva. Técnicamente, Lucas tem se mostrado um grande profissional! Eu estou muito satisfeito com a forma como ele lida com os desafios. Sem dúvidas ele é um profissional que indicaria com muita alegria para qualquer pessoa ou empresa.',
   },
   {
     image: '/t-avt-3.png',
