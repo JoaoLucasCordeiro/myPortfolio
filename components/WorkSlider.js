@@ -74,6 +74,16 @@ const workSlides = {
         },
       ],
     },
+    
+    {
+      images: [
+        {
+          title: "title",
+          path: "/thumb13.png",
+          href: "https://cloudwatch.vercel.app/",
+        },
+      ],
+    },
   ],
 };
 
