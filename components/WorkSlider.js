@@ -82,6 +82,11 @@ const workSlides = {
           path: "/thumb13.png",
           href: "https://cloudwatch.vercel.app/",
         },
+          {
+          title: "title",
+          path: "/thumb14.png",
+          href: "https://keypoint.netlify.app/",
+        },
       ],
     },
   ],
