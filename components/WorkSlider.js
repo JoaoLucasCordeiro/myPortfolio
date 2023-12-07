@@ -10,33 +10,37 @@ const workSlides = {
         },
         {
           title: "title",
-          path: "/thumb2.png",
-          href: "https://adinamotel.vercel.app/",
-        },
-        {
-          title: "title",
           path: "/thumb3.png",
           href: "https://semabio.netlify.app/",
         },
         {
           title: "title",
-          path: "/thumb4.png",
-          href: "https://viewloom.vercel.app/",
+          path: "/thumb12.png",
+          href: "https://sphereproject.vercel.app/",
         },
+       
+        {
+          title: "title",
+          path: "/thumb5.png",
+          href: "https://inclusivepet.com.br/",
+        },
+      
       ],
     },
     {
       images: [
         {
           title: "title",
-          path: "/thumb5.png",
-          href: "https://inclusivepet.com.br/",
+          path: "/thumb4.png",
+          href: "https://viewloom.vercel.app/",
         },
         {
           title: "title",
-          path: "/thumb6.png",
-          href: "https://travelzlucascordeiro.netlify.app/",
+          path: "/thumb14.png",
+          href: "https://keypoint.netlify.app/",
         },
+     
+     
         {
           title: "title",
           path: "/thumb7.png",
@@ -44,9 +48,10 @@ const workSlides = {
         },
         {
           title: "title",
-          path: "/thumb8.png",
-          href: "https://gymmewebsite.vercel.app/",
+          path: "/thumb13.png",
+          href: "https://cloudwatch.vercel.app/",
         },
+      
       ],
     },
 
@@ -69,9 +74,10 @@ const workSlides = {
         },
         {
           title: "title",
-          path: "/thumb12.png",
-          href: "https://sphereproject.vercel.app/",
+          path: "/thumb8.png",
+          href: "https://gymmewebsite.vercel.app/",
         },
+      
       ],
     },
     
@@ -79,13 +85,8 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "/thumb13.png",
-          href: "https://cloudwatch.vercel.app/",
-        },
-          {
-          title: "title",
-          path: "/thumb14.png",
-          href: "https://keypoint.netlify.app/",
+          path: "/thumb6.png",
+          href: "https://travelzlucascordeiro.netlify.app/",
         },
       ],
     },
