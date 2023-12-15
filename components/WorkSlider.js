@@ -39,8 +39,6 @@ const workSlides = {
           path: "/thumb14.png",
           href: "https://keypoint.netlify.app/",
         },
-     
-     
         {
           title: "title",
           path: "/thumb7.png",
@@ -78,6 +76,16 @@ const workSlides = {
           href: "https://gymmewebsite.vercel.app/",
         },
       
+      ],
+    },
+
+    {
+      images: [
+        {
+          title: "title",
+          path: "/thumb15.png",
+          href: "https://unistyle.vercel.app/",
+        },
       ],
     },
   ],
