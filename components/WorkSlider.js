@@ -44,11 +44,13 @@ const workSlides = {
           path: "/thumb7.png",
           href: "https://linksnip.netlify.app/",
         },
-       {
+        {
           title: "title",
-          path: "/thumb6.png",
-          href: "https://travelzlucascordeiro.netlify.app/",
+          path: "/thumb15.png",
+          href: "https://unistyle.vercel.app/",
         },
+        
+     
       
       ],
     },
@@ -83,8 +85,8 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "/thumb15.png",
-          href: "https://unistyle.vercel.app/",
+          path: "/thumb6.png",
+          href: "https://travelzlucascordeiro.netlify.app/",
         },
       ],
     },
