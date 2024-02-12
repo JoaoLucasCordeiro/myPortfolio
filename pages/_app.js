@@ -4,6 +4,7 @@ import "../styles/globals.css";
 import Layout from "../components/Layout";
 import Transition from "../components/Transition";
 
+
 // router
 import { useRouter } from "next/router";
 
@@ -20,17 +21,16 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Lucas Cordeiro Desenvolvedor</title>
-        <link rel="icon" href="/public/favicon.png" />
         <meta
           name="description"
-          content="Desenvolvedor web freelancer brasileiro. Criativo, proativo e pronto para transformar sua ideia em algo único"
+          content="Desenvolvedor web freelancer. Criativo, proativo e pronto para transformar sua ideia em algo único"
         />
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="Lucas Cordeiro" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="theme-color" content="#EE692D" />
-
+        <link rel="icon" href="./public/logo.png" />
       </Head>
       <Layout>
         <AnimatePresence>

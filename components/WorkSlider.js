@@ -85,8 +85,26 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "/thumb6.png",
-          href: "https://travelzlucascordeiro.netlify.app/",
+          path: "/thumb19.png",
+          href: "https://conhecainclusivepet.vercel.app/",
+        },
+
+        {
+          title: "title",
+          path: "/thumb16.png",
+          href: "https://kilcardoso.netlify.app/",
+        },
+
+        {
+          title: "title",
+          path: "/thumb17.png",
+          href: "https://teamguima.com/",
+        },
+
+        {
+          title: "title",
+          path: "/thumb18.png",
+          href: "https://eventease-opal.vercel.app/",
         },
       ],
     },
